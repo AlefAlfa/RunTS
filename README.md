@@ -13,6 +13,38 @@ Please ensure you have the following installed:
 npm install -g typescript
 ```
 
+## **Opening the `~/.zshrc` file**
+
+To add the **`runts()`** function to your **`~/.zshrc`** file, follow these steps:
+
+1. Open a terminal.
+2. Enter the following command to open the **`~/.zshrc`** file using a text editor (e.g., nano, vim, code):
+    
+    ```
+    bashCopy code
+    nano ~/.zshrc
+    
+    ```
+    
+    This command opens the **`~/.zshrc`** file in the nano text editor. You can replace **`nano`** with your preferred text editor's command if desired.
+    
+3. Scroll to the end of the file using the arrow keys or the Page Up/Page Down keys.
+4. Append the contents of the **`runts.sh`** file from the repository to the end of the **`~/.zshrc`** file.
+5. Save the changes by pressing **`Ctrl + O`**, then press **`Enter`** to confirm.
+6. Exit the text editor by pressing **`Ctrl + X`**.
+7. To apply the changes to your current shell session, run the following command:
+    
+    ```
+    bashCopy code
+    source ~/.zshrc
+    
+    ```
+    
+    This command reloads the **`~/.zshrc`** file and makes the **`runts()`** function available for use in your terminal.
+    
+
+Now you can use the **`runts()`** function to compile and run your TypeScript files with ease.
+
 ## **Usage**
 
 The function **`runts()`** is designed to be added to your **`~/.zshrc`** file (or **`~/.bashrc`** if you're using bash).
@@ -26,9 +58,7 @@ To use the **`runts()`** function:
 3. You can now run the **`runts()`** function by calling it with the filename (without the extension) as a parameter:
 
 ```
-bashCopy code
 runts filename
-
 ```
 
 Please note: **`filename`** refers to the name of your TypeScript file without the **`.ts`** extension.
