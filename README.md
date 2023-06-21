@@ -33,9 +33,7 @@ To add the **`runts()`** function to your **`~/.zshrc`** file, follow these step
 7. To apply the changes to your current shell session, run the following command:
     
     ```
-    bashCopy code
     source ~/.zshrc
-    
     ```
     
     This command reloads the **`~/.zshrc`** file and makes the **`runts()`** function available for use in your terminal.
