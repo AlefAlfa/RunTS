@@ -21,9 +21,7 @@ To add the **`runts()`** function to your **`~/.zshrc`** file, follow these step
 2. Enter the following command to open the **`~/.zshrc`** file using a text editor (e.g., nano, vim, code):
     
     ```
-    bashCopy code
     nano ~/.zshrc
-    
     ```
     
     This command opens the **`~/.zshrc`** file in the nano text editor. You can replace **`nano`** with your preferred text editor's command if desired.
