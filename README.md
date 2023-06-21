@@ -10,9 +10,7 @@ Please ensure you have the following installed:
 - TypeScript: A superset of JavaScript that adds static types. You can install TypeScript globally with npm (Node Package Manager) using the following command:
 
 ```
-bashCopy code
 npm install -g typescript
-
 ```
 
 ## **Usage**
